@@ -1,12 +1,7 @@
 package com.cheung.jeremy.server.student;
 
 
-import jakarta.persistence.Table;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.SequenceGenerator;
-import jakarta.persistence.Entity;
+import jakarta.persistence.*;
 import java.time.LocalDate;
 
 
@@ -27,6 +22,7 @@ public class Student {
     private String name;
     private String email;
     private LocalDate dob;
+    @Transient
     private Integer age;
 
     public Student() {
