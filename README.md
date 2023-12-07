@@ -1,1 +1,1 @@
-# springboot-startup
+# Student API demonstration
