@@ -1,0 +1,6 @@
+com\cheung\jeremy\server\student\StudentService.class
+com\cheung\jeremy\server\ServerApplication.class
+com\cheung\jeremy\server\student\StudentRepository.class
+com\cheung\jeremy\server\student\studentConfig.class
+com\cheung\jeremy\server\student\Student.class
+com\cheung\jeremy\server\student\StudentController.class
