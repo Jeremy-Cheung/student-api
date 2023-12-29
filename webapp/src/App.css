@@ -24,3 +24,13 @@
   color: black;
 }
 
+.separator {
+  display: block;
+    position: absolute;
+    right: 25vw;
+    top: 15vh;
+    border-radius: 10px;
+    width: 5px;
+    height: 80vh;
+    background-color: rgb(132, 189, 255);
+}
