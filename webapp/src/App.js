@@ -1,14 +1,10 @@
 import './App.css';
+import TopBar from './components/TopBar';
 
 function App() {
   return (
     <div className="App">
-      <nav>
-        <header className="App-header">
-        STUDENT-API DEMO
-        </header>
-      </nav>
-
+      <TopBar/>
     </div>
   );
 }
