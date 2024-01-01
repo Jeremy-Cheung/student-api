@@ -66,7 +66,7 @@ INSERT INTO student (name, email, dob) VALUES
 ('Ava', 'ava.taylor@example.com', '1985-12-21'),
 ('Jacob', 'jacob.carter@example.com', '1996-10-04'),
 ('Ella', 'ella.davis@example.com', '1988-06-17'),
-('Daniel', 'daniel.king@example.com', '1991-02-29'),
+('Daniel', 'daniel.king@example.com', '1991-02-21'),
 ('Lily', 'lily.scott@example.com', '1983-09-13'),
 ('Liam', 'liam.adams@example.com', '1994-07-26'),
 ('Charlotte', 'charlotte.turner@example.com', '1986-04-08'),
