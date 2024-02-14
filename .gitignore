@@ -12,6 +12,7 @@
 
 # Package Files #
 *.war
+*.jar
 *.nar
 *.ear
 *.zip
@@ -23,6 +24,10 @@ hs_err_pid*
 replay_pid*
 
 HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
 ### STS ###
 .apt_generated

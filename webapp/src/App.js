@@ -9,7 +9,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:8080/api/v1/student');
+        const response = await fetch('/api/v1/student');
         const result = await response.json();
         setData(result);
 
