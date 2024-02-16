@@ -1,7 +1,17 @@
 .ScrollableContainer {
-    max-width: 25vw;
+    max-width: 35vw;
     max-height: 92vh;
     overflow-y: scroll;
     position: absolute;
     right: 0px;
+}
+
+td {
+    min-width: 5vw;
+    max-width: 14vw;
+    word-wrap: break-word;
+}
+
+tr:nth-child(even) {
+    background-color: #ebebeb;
 }
