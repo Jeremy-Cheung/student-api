@@ -1,0 +1,7 @@
+.inactiveTab {
+    display: none;
+  }
+
+  .activeTab {
+    display: block;
+  }

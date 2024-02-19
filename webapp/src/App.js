@@ -1,5 +1,6 @@
 import './App.css';
 import TopBar from './components/TopBar';
+import Tabs from './components/Tabs';
 import ScrollableContainer from './components/ScrollableContainer';
 import React from 'react';
 import { useEffect } from 'react';
@@ -23,6 +24,7 @@ const App = () => {
   return (
     <div className="App">
       <TopBar/>
+      <Tabs state="1"/>
       <div className="separator"/>
       <ScrollableContainer
         jsonData={data}
