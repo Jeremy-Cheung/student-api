@@ -1,7 +1,9 @@
 .inactiveTab {
     display: none;
+    left: 0px;
   }
 
   .activeTab {
     display: block;
+    left: 0px;
   }

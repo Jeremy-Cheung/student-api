@@ -7,6 +7,8 @@ import { useEffect } from 'react';
 
 const App = () => {
   const [data, setData] = React.useState([])
+  const [tab, setTab] = React.useState(1);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -23,8 +25,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <TopBar/>
-      <Tabs state="1"/>
+      <TopBar tab={setTab}/>
+      <Tabs state={tab}/>
       <div className="separator"/>
       <ScrollableContainer
         jsonData={data}

@@ -1,21 +1,28 @@
-.header {
-    background-color: #181716;
-    min-height: 8vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    font-weight: bold;
-  }
-  
-  .body {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: black;
-  }
+.nav {
+  background-color: #181716;
+  min-height: 8vh;
+  font-size: calc(20px + 2vmin);
+  color: white;
+  font-weight: bold;
+}
+
+.nav div {
+  float: left;
+  padding: 2vh 3vw;
+}
+
+.nav button {
+  float: left;
+  font-size: calc(10px + 2vmin);
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-top: 3.75vh;
+  color: white;
+  background-color: #181716;
+  font-weight: bold;
+  border: none;
+}
+
+.tab:hover {
+  background-color: #3a3a3a;
+}
